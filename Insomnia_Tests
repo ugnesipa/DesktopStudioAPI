@@ -1,0 +1,2766 @@
+type: collection.insomnia.rest/5.0
+name: DesktopStudio
+meta:
+  id: wrk_74194181f58a446daba9f0ec40dec00a
+  created: 1746201001305
+  modified: 1746201001305
+collection:
+  - name: Users
+    meta:
+      id: fld_fdb34bfcfcef496693b4f82bba303d07
+      created: 1746201060474
+      modified: 1746201190058
+      sortKey: -1746201129731
+    children:
+      - name: user logins for testing
+        meta:
+          id: fld_897a1483d6864aab95a2ae43cbed019e
+          created: 1746931035173
+          modified: 1746931035173
+          sortKey: -1746931035173
+        children:
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: Master Login
+            meta:
+              id: req_40358971579d4a57b5dcd16295f51c94
+              created: 1746209221858
+              modified: 1747021184869
+              isPrivate: false
+              sortKey: -1746931054165
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "master@example.com",
+                	"password": "masterpassword"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: User 2 Login
+            meta:
+              id: req_668078318069455ea449da5bdb0e1fd9
+              created: 1746215048266
+              modified: 1747021176701
+              isPrivate: false
+              sortKey: -1746931054315
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "user2@example.com",
+                	"password": "password"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: Admin Login
+            meta:
+              id: req_19f3017b9aa9424cb02312bc0980b452
+              created: 1746658120377
+              modified: 1747021181001
+              isPrivate: false
+              sortKey: -1746931054265
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "user@example.com",
+                	"password": "userpassword"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: User 3 Login
+            meta:
+              id: req_fc86c151892d4b0187f7ff1a086b0b61
+              created: 1746715254572
+              modified: 1747021172862
+              isPrivate: false
+              sortKey: -1746931054365
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "user3@example.com",
+                	"password": "password"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: User 4 Login
+            meta:
+              id: req_218b0f80597f491f9ae531de104a13a9
+              created: 1746716600579
+              modified: 1747021168714
+              isPrivate: false
+              sortKey: -1746931054465
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "user4@example.com",
+                	"password": "password"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: User Login
+            meta:
+              id: req_852e3816bc1c4eecb745ef7fe611171f
+              created: 1746978220856
+              modified: 1747021164603
+              isPrivate: false
+              sortKey: -1746978220856
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email": "user11@example.com",
+                	"password": "password"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.0.2
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/login
+            name: New Request
+            meta:
+              id: req_2349870ebe08405bb91656f9c8ca673a
+              created: 1747385553089
+              modified: 1747385624802
+              isPrivate: false
+              sortKey: -1747385553089
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"email":"api@testin.com",
+                	"password":"password"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.1.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users
+        name: Get all users (master only)
+        meta:
+          id: req_c7423928ecd54f569e94c46f4863db37
+          created: 1746201214080
+          modified: 1747021225485
+          isPrivate: false
+          sortKey: -1746210360674
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_ec0ee07a7933473f8bc86d714f3f2688
+          - id: pair_8a4aeb4fcc9143d69e8b5f1110cc345e
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/681be4303dbde7403fc40b27
+        name: Update user
+        meta:
+          id: req_df742b9d8cae407a93e44f351ea43764
+          created: 1746210186297
+          modified: 1747380329919
+          isPrivate: false
+          sortKey: -1746658310453
+        method: PATCH
+        body:
+          mimeType: multipart/form-data
+          params:
+            - id: pair_20c1565e11544b36942c5ed168edac1c
+              name: image
+              disabled: false
+              type: file
+              fileName: C:\Users\ugniu\Downloads\icons8-github-64.png
+        headers:
+          - name: Content-Type
+            value: multipart/form-data
+            id: pair_9443185fa6a24836be18dc2cfc59aae2
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_ad589268e48b4206a3cdc7dfa6d340bc
+          - id: pair_abef629b79184091a71131dc180ecbdd
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzM5NTkxLCJleHAiOjE3NDc5NDQzOTF9.weN4hCyhoX7980VDvIRNJ9yisdsjrSvQFeIuHJ4wg3Y
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/register
+        name: Register new user
+        meta:
+          id: req_82f8a90d674a463babdbe300828df869
+          created: 1746210360774
+          modified: 1747385480516
+          isPrivate: false
+          sortKey: -1746210360774
+        method: POST
+        body:
+          mimeType: multipart/form-data
+          params:
+            - name: email
+              value: api@testin.com
+              id: pair_a1a68ebf6b5d4612a99a9a96ee0a636a
+            - id: pair_26e4960adf9a425580c7a1e73845928a
+              name: username
+              value: apitestinguser
+              disabled: false
+            - id: pair_33a1f5937c9c4bd488f014c7f47150aa
+              name: password
+              value: password
+              disabled: false
+        headers:
+          - name: Content-Type
+            value: multipart/form-data
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/follow/6815035606770e8069af7d8b
+        name: Follow
+        meta:
+          id: req_6d9fbdc923444a2c8133e9a783f75adc
+          created: 1746658288431
+          modified: 1747385877654
+          isPrivate: false
+          sortKey: -1746658288431
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_bcf80bff11754e96938963ed7c0d2ce2
+          - id: pair_f5bd12c48f574859b27cb5d30b7c2097
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFwaUB0ZXN0aW4uY29tIiwidXNlcm5hbWUiOiJhcGl0ZXN0aW5ndXNlciIsIl9pZCI6IjY4MjZmYzhhZjQ0ZGIyMGJhNmQ4MjQ5NSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3Mzg1NjI2LCJleHAiOjE3NDc5OTA0MjZ9.WV3DELI3R0lhtMwCJcSnXdsYYaQwCdhSIRP83SxOZc0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/unfollow/6815035606770e8069af7d8b
+        name: Unfollow
+        meta:
+          id: req_bfcff035027148e096fab337009189a1
+          created: 1746658310353
+          modified: 1747385984529
+          isPrivate: false
+          sortKey: -1746658310353
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b0868694d18942878614341c46262281
+          - id: pair_5dc2c5ffe7bf4fe5b23e91fa35d19828
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFwaUB0ZXN0aW4uY29tIiwidXNlcm5hbWUiOiJhcGl0ZXN0aW5ndXNlciIsIl9pZCI6IjY4MjZmYzhhZjQ0ZGIyMGJhNmQ4MjQ5NSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3Mzg1NjI2LCJleHAiOjE3NDc5OTA0MjZ9.WV3DELI3R0lhtMwCJcSnXdsYYaQwCdhSIRP83SxOZc0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/profile
+        name: get profile
+        meta:
+          id: req_9cd73e03c5054f6b933c6ce02f27a9b7
+          created: 1746716075308
+          modified: 1747385649324
+          isPrivate: false
+          sortKey: -1746210360749
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_387384c1b8b5492db8184dcf55d42723
+          - id: pair_7c42050431a5401eb2f6bdbcf2f441c2
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFwaUB0ZXN0aW4uY29tIiwidXNlcm5hbWUiOiJhcGl0ZXN0aW5ndXNlciIsIl9pZCI6IjY4MjZmYzhhZjQ0ZGIyMGJhNmQ4MjQ5NSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3Mzg1NjI2LCJleHAiOjE3NDc5OTA0MjZ9.WV3DELI3R0lhtMwCJcSnXdsYYaQwCdhSIRP83SxOZc0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/681be4303dbde7403fc40b27
+        name: get by id
+        meta:
+          id: req_c5253c7732014c11a5400ac94af00057
+          created: 1746716104958
+          modified: 1747360885829
+          isPrivate: false
+          sortKey: -1746210360724
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_279eadfa0cd44aecabbb2d6ac32c5db0
+          - id: pair_d3dd2b189c484a74ade552fce940cfea
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NzM2MDc5NSwiZXhwIjoxNzQ3OTY1NTk1fQ.4shLWtEew6X9_ykbJuzYEOV-xy4xsdqWA7AQbrzMJf8
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/library
+        name: get library (owner)
+        meta:
+          id: req_10e23bb03ca8403a9e683b97e1d47cf0
+          created: 1746716638122
+          modified: 1747385791062
+          isPrivate: false
+          sortKey: -1746716638122
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_41b44998be2e46d29ea8bba759bcd7f8
+          - id: pair_8eb13b2fd91e4ae892d91b1fc2a0a71a
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFwaUB0ZXN0aW4uY29tIiwidXNlcm5hbWUiOiJhcGl0ZXN0aW5ndXNlciIsIl9pZCI6IjY4MjZmYzhhZjQ0ZGIyMGJhNmQ4MjQ5NSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3Mzg1NjI2LCJleHAiOjE3NDc5OTA0MjZ9.WV3DELI3R0lhtMwCJcSnXdsYYaQwCdhSIRP83SxOZc0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/save
+        name: Save content (wallpaper, icon, themes)
+        meta:
+          id: req_3540f9aa4d734a149ff9b50229ace79e
+          created: 1746735413344
+          modified: 1747361549911
+          isPrivate: false
+          sortKey: -1746735413344
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"contentId": "68269bbd2df70953b41b8d54",
+            	"contentType": "Wallpaper"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_d0054fcb4a7847328ae3e707408d9c50
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b4012a755eaa410db74b43d53cede6e0
+          - id: pair_4bcfb95787c24f8c8b257887ce24d07f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzYxNDk0LCJleHAiOjE3NDc5NjYyOTR9.ci_pNpYpPff8Ax70_6EriOoUwG4r1TVNsKlNmweomd4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/users/unsave
+        name: Unsave content (wallpaper, icon, themes)
+        meta:
+          id: req_6bf1e887a66a47dd80a621a1dd9c675e
+          created: 1746931134867
+          modified: 1747021189423
+          isPrivate: false
+          sortKey: -1746833224258.5
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"contentId": "681cc246c13b501a3c0a260a",
+            	"contentType": "Icon"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_0a48df9c161c40a69b41f3ce9b0f3a58
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_a68cbf9d30684ecc9a08e90092e0ea9f
+          - id: pair_8bb63ff16d534991b8720ea447a396e2
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Wallpapers
+    meta:
+      id: fld_9da88ff8476f4a24b2ffc15628f1e936
+      created: 1746201081338
+      modified: 1746201204423
+      sortKey: -1746201129706
+    children:
+      - name: admin/master endpoints only
+        meta:
+          id: fld_a3c383cab57f4cc7b38cbffde176d92c
+          created: 1746710261447
+          modified: 1746710266386
+          sortKey: -1746667609831
+        children:
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/admin/unapproved
+            name: get unapproved (admin/master)
+            meta:
+              id: req_9bedc605bc8d4e7eb0ecd88fa48718d1
+              created: 1746667170704
+              modified: 1747360766477
+              isPrivate: false
+              sortKey: -1746710273624
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_badf67f066da4bf0bd4ff2f94010fdca
+              - id: pair_14be4c6dcee742c7a0d75fb7576636fe
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/68270015f44db20ba6d824e7
+            name: soft delete (admin/master)
+            meta:
+              id: req_064627508b304b6ba7add2ca81d148a5
+              created: 1746667609731
+              modified: 1747386466807
+              isPrivate: false
+              sortKey: -1746710274024
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_8871dd684a014747b4eed2951fe2676b
+              - id: pair_9fddd94cff31439ba2bf5a1405e72640
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NzM2MDc5NSwiZXhwIjoxNzQ3OTY1NTk1fQ.4shLWtEew6X9_ykbJuzYEOV-xy4xsdqWA7AQbrzMJf8
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/admin/deleted
+            name: get all deleted (admin/master)
+            meta:
+              id: req_3dec841231b9430c8bb577a0bb9ebf8d
+              created: 1746667777535
+              modified: 1747021249631
+              isPrivate: false
+              sortKey: -1746710273724
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_7cd73ce1ff014d3daa027ae36672d648
+              - id: pair_d168c360751c4f82b2c395a7efa1872b
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/admin/restore/68270015f44db20ba6d824e7
+            name: restore deleted (master only)
+            meta:
+              id: req_53addf53254b47da92c8f089e4d8188f
+              created: 1746667921514
+              modified: 1747386572157
+              isPrivate: false
+              sortKey: -1746710273874
+            method: PUT
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_cd3232f897834c5f9c580aeaaf1f8885
+              - id: pair_b017f4b3897443b9a198bc5e5fccd09a
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NzM2MDc5NSwiZXhwIjoxNzQ3OTY1NTk1fQ.4shLWtEew6X9_ykbJuzYEOV-xy4xsdqWA7AQbrzMJf8
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/6826ffa9f44db20ba6d824dc
+            name: approve wallpaper (admin/master)
+            meta:
+              id: req_ff86b7e014a547b984ba3cb4a5fa76b6
+              created: 1746669626901
+              modified: 1747386299962
+              isPrivate: false
+              sortKey: -1746710273924
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"isApproved": "true"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+                id: pair_a7edd161455e409faca5c375fe272453
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_6cf48a92f3c5462b8a9f7041dd4cc0a4
+              - id: pair_358ee5f874d14756b40ab7dc521dc41c
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NzM2MDc5NSwiZXhwIjoxNzQ3OTY1NTk1fQ.4shLWtEew6X9_ykbJuzYEOV-xy4xsdqWA7AQbrzMJf8
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/admin/deleted/68270015f44db20ba6d824e7
+            name: get deleted by id (admin/master)
+            meta:
+              id: req_e2123bdf0e1d4792b939939cd339be9e
+              created: 1746710154061
+              modified: 1747386511593
+              isPrivate: false
+              sortKey: -1746710273824
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_7cd73ce1ff014d3daa027ae36672d648
+              - id: pair_d168c360751c4f82b2c395a7efa1872b
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NzM2MDc5NSwiZXhwIjoxNzQ3OTY1NTk1fQ.4shLWtEew6X9_ykbJuzYEOV-xy4xsdqWA7AQbrzMJf8
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers
+        name: get all (public and approved)
+        meta:
+          id: req_ba4a033476a844d8b20417393814f888
+          created: 1746658768046
+          modified: 1747019760592
+          isPrivate: false
+          sortKey: -1746658779871.7188
+        method: GET
+        body:
+          mimeType: application/json
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/create
+        name: create
+        meta:
+          id: req_e5185bc7cfcd4376a7455bf59aae1747
+          created: 1746658894187
+          modified: 1747386276211
+          isPrivate: false
+          sortKey: -1746660127579.1875
+        method: POST
+        body:
+          mimeType: multipart/form-data
+          params:
+            - name: title
+              value: nature
+              id: pair_e8714ba86d26495d8a3ae22484cbca9e
+              type: text
+              multiline: false
+              disabled: false
+            - id: pair_2031dbb1ce5c480e8b51629d0e0c757e
+              name: description
+              value: cartoonish wallpaper for fantasy lovers
+              disabled: false
+            - id: pair_88064303950a4e13877bc86a57b6b128
+              name: tags[]
+              value: bear
+              disabled: false
+            - id: pair_712829f3f13f4a56a5ad84047ff0276b
+              name: category
+              value: nature
+              disabled: false
+            - id: pair_121d3005eb864ce884079dea835981e1
+              name: image
+              disabled: false
+              type: file
+              fileName: C:\Users\ugniu\Downloads\nature-forest-desktop-wallpaper-4k 2.jpg
+            - id: pair_dd144183d28d4144a44e9bffb9a10506
+              name: isPublic
+              value: "true"
+              disabled: false
+        headers:
+          - name: Content-Type
+            value: multipart/form-data
+            id: pair_4c1e1528760246daa179afc13fd3fae4
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_8a948c04453444079e61a9c3167f8134
+          - id: pair_d6abe0208e8d4106a7935a19ea0271a5
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/681bf907d525926c52207d82/hard-delete
+        name: hard delete (owner/master)
+        meta:
+          id: req_8773d53a9b0f4f039443e4ad5482427f
+          created: 1746663859291
+          modified: 1747021257486
+          isPrivate: false
+          sortKey: -1746663859291
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_282020da44474135bdfed28f0465b150
+          - id: pair_1ae78c388eeb4adfb1f12046b28f1f0c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2MjE1MTA0LCJleHAiOjE3NDY4MTk5MDR9.7L9SYl7GdITopTykTX6ZX_1hTee0ruYruOfqKtcr874
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/user/pending
+        name: get all pending approval (owner)
+        meta:
+          id: req_31fca096bf8f495fb3b3e07678ed0619
+          created: 1746668205090
+          modified: 1747021271830
+          isPrivate: false
+          sortKey: -1746658815348.875
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_387eb2ada69f4e9196cbf49521d7ccf6
+          - id: pair_53211ef2a6034a24af92f02f127b4642
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2MjE1MTA0LCJleHAiOjE3NDY4MTk5MDR9.7L9SYl7GdITopTykTX6ZX_1hTee0ruYruOfqKtcr874
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/download/681c06443822182d2b595f8f
+        name: download (get pre-signed URL)
+        meta:
+          id: req_1064d233d517420886872ac193c4a3d5
+          created: 1746668427694
+          modified: 1747021267918
+          isPrivate: false
+          sortKey: -1746659502999.2812
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_813dbe92863846e1b06d01043e4dfbe1
+          - id: pair_577d3a83ce5d4339a257341f935a9bbb
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2MjE1MTA0LCJleHAiOjE3NDY4MTk5MDR9.7L9SYl7GdITopTykTX6ZX_1hTee0ruYruOfqKtcr874
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/68269bbd2df70953b41b8d54
+        name: get wallpaper by id
+        meta:
+          id: req_da2e59b365e8423289a006af76b98fbf
+          created: 1746668708682
+          modified: 1747362470120
+          isPrivate: false
+          sortKey: -1746658791697.4375
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_51f7150efb634f4faa5bfb8618f925ab
+          - id: pair_1db4779be48247a7abe134b9d24d92e5
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzM5NTkxLCJleHAiOjE3NDc5NDQzOTF9.weN4hCyhoX7980VDvIRNJ9yisdsjrSvQFeIuHJ4wg3Y
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/wallpapers/68269bbd2df70953b41b8d54
+        name: update wallpaper (owner only)
+        meta:
+          id: req_7a6178afcf4c4db28dcd0a7f4025bf1c
+          created: 1746930601126
+          modified: 1747384590792
+          isPrivate: false
+          sortKey: -1746661993435.0938
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"isApproved": "false"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_695ca135e9564be5a8402fda97c7fd74
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c426b0d8f7174bac8b7045b5dc4cbac9
+          - id: pair_6362789c826d401d97b5267cd2e4cf3d
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzM5NTkxLCJleHAiOjE3NDc5NDQzOTF9.weN4hCyhoX7980VDvIRNJ9yisdsjrSvQFeIuHJ4wg3Y
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Icons
+    meta:
+      id: fld_1cd2f3a1e80b45b38c2e78324c4209a4
+      created: 1746201091268
+      modified: 1746201194644
+      sortKey: -1746201129681
+    children:
+      - name: admin/master only
+        meta:
+          id: fld_6277ed35da16401392159e5fa8d0b306
+          created: 1746715406333
+          modified: 1746715406333
+          sortKey: -1746715406333
+        children:
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/admin/unapproved
+            name: get all unapproved
+            meta:
+              id: req_0c9e2013f9c340fdb5e58b503751c2e7
+              created: 1746715302191
+              modified: 1747021416896
+              isPrivate: false
+              sortKey: -1746715416104
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_4ab13b0b93a348aaa71a84526e7b18b0
+              - id: pair_c0b7dee284704fd5b444f3b24ff4b0c2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/6820218b634b78087985bd6a
+            name: approve (set isApporved=true)
+            meta:
+              id: req_34a6c71c30cf4df29997b07b2a81eff3
+              created: 1746715441383
+              modified: 1747021400512
+              isPrivate: false
+              sortKey: -1746934922236
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"isApproved":"true"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+                id: pair_08c310cc387e46c7989128ccbac529d7
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_a5d3a426e5d74bf592d5b4a7ee378246
+              - id: pair_bb5fa6360fb541c4a98c4f9114e9b50c
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/admin/deleted
+            name: get all deleted
+            meta:
+              id: req_7313922e3b1e4e7cacbe23e36cf0ef59
+              created: 1746934553129
+              modified: 1747021411659
+              isPrivate: false
+              sortKey: -1746934553129
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_faf9b91d81704905a8f32690945df870
+              - id: pair_6707edd5f27f4a2eb643adcf6d30e250
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/admin/deleted/681cc549b8fdbf70315d56f6
+            name: get deleted by id
+            meta:
+              id: req_b06332c71504436a9bf44d12efad5546
+              created: 1746934878339
+              modified: 1747021408063
+              isPrivate: false
+              sortKey: -1746934878339
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_640775657e414ea88db39489c0fecda6
+              - id: pair_21a6014d76244c14bb96bb9654e890ff
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/681cc549b8fdbf70315d56f6
+            name: soft delete
+            meta:
+              id: req_ffd0f5d7c9504764bf22d9e18271b844
+              created: 1746934928507
+              modified: 1747021396197
+              isPrivate: false
+              sortKey: -1746934928507
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_54d648f89a09484aa8d70ebe89ed172d
+              - id: pair_ffe426806a1f4c8e876cf516c63639ae
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/admin/restore/681cc549b8fdbf70315d56f6
+            name: restore soft deleted (master only)
+            meta:
+              id: req_d8c6c0b908984dd091a4edf9777e1017
+              created: 1746935003150
+              modified: 1747021403888
+              isPrivate: false
+              sortKey: -1746934915965
+            method: PUT
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_ee42fc443e2c47b09219aadb594b0ae7
+              - id: pair_89f61f1fe8674f10bd2623db2a47b7b2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons
+        name: get all
+        meta:
+          id: req_9415ec97199c49298db0dd87059ab892
+          created: 1746710377482
+          modified: 1747021446577
+          isPrivate: false
+          sortKey: -1746710377482
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/create
+        name: create
+        meta:
+          id: req_324295c684f445a791fc9f4f14a33e71
+          created: 1746710405356
+          modified: 1747021430161
+          isPrivate: false
+          sortKey: -1746710397516.4375
+        method: POST
+        body:
+          mimeType: multipart/form-data
+          params:
+            - id: pair_c93be64b8ef24d7e9fb9eb95526cd322
+              name: title
+              value: "steam in light brown "
+              disabled: false
+            - id: pair_71f6e90439be4e56ab3b8ad9fcf23fef
+              name: description
+              value: decided to make a brown steam icon
+              disabled: false
+            - id: pair_d3e6410bbcc84ec9af3ec2a8a584ea01
+              name: iconType
+              value: Steam
+              disabled: false
+            - id: pair_f1faf88ec0664ec68d3acd481a59b59d
+              name: category
+              value: nature
+              disabled: false
+            - id: pair_18de5e73af5340068d081727c50ae39a
+              name: tags
+              value: brown
+              disabled: false
+              type: text
+              multiline: false
+            - id: pair_069c13d5397d486e91309fe21279c6fe
+              name: image
+              disabled: false
+              type: file
+              fileName: C:\Users\ugniu\Downloads\icons8-steam-150.png
+        headers:
+          - name: Content-Type
+            value: multipart/form-data
+            id: pair_92cacd62598c4a36a3ab6488a9c35314
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_128135f00f2344beb0fc0c1059626d2e
+          - id: pair_913f18d3bb044b3cbe0c51dca905b97f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1NjM4LCJleHAiOjE3NDczMjA0Mzh9.WxnBXiDBIeMMk_sxJG8WxCIFTrfiqvwDT21WNF404X4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/681cc246c13b501a3c0a260a
+        name: get by id
+        meta:
+          id: req_3f8effe571f34190bf92b33064afba4b
+          created: 1746712365265
+          modified: 1747021442497
+          isPrivate: false
+          sortKey: -1746710391419
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_f8f40e9075dd4c16862090ac23540b50
+          - id: pair_7ac49c2ac44a4f06b77151eefd35d51c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1MjY3LCJleHAiOjE3NDczMjAwNjd9.lpI0ND29YA3ZE5E6_lyayf8c6L4IDILtCqvECtSHfU8
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/6820218b634b78087985bd6a
+        name: update (make isPublic=true) (owner only)
+        meta:
+          id: req_326c693a0fa3409997af11c2d61f78ad
+          created: 1746715551508
+          modified: 1747021425957
+          isPrivate: false
+          sortKey: -1746710398387.5
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"isPublic":"true"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_d366d855e863449fafabbcfb0aa190ed
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_66a9fe93563f4c9b94ff91379afafbd5
+          - id: pair_fd1e5d8747264f6ca9584dfc6753a2a7
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1NjM4LCJleHAiOjE3NDczMjA0Mzh9.WxnBXiDBIeMMk_sxJG8WxCIFTrfiqvwDT21WNF404X4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/user/pending
+        name: get all pending approval (owner only)
+        meta:
+          id: req_70eaf6be8f464460b800de49325a7d25
+          created: 1746715889583
+          modified: 1747021438316
+          isPrivate: false
+          sortKey: -1746710394903.25
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c9d10090cebd4bb7b4b394c1c800b456
+          - id: pair_ce82f6d0b7a042868a9878aa3c8f1885
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1NjM4LCJleHAiOjE3NDczMjA0Mzh9.WxnBXiDBIeMMk_sxJG8WxCIFTrfiqvwDT21WNF404X4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/681cc1dcc13b501a3c0a2605/hard-delete
+        name: hard delete (owner/master)
+        meta:
+          id: req_46bf7c827aee4dadb28903fed945cd3a
+          created: 1746933848286
+          modified: 1747021421699
+          isPrivate: false
+          sortKey: -1746712902360.25
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_4ffa3d208d324501bc0856c6462f2b37
+          - id: pair_450687e382ad4e968c1492b6ca02558c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icons/download/681cc246c13b501a3c0a260a
+        name: download (get pre-signed URL)
+        meta:
+          id: req_ede89708145c4206b6e7ee3b48f04922
+          created: 1746933915246
+          modified: 1747021434063
+          isPrivate: false
+          sortKey: -1746710396645.375
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b2bea00048a840b7a9e4a10fd5812558
+          - id: pair_a99191b4f3f9406ba83106c23b01c47d
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Reviews
+    meta:
+      id: fld_5c4af29484a04c2680f95184406d190c
+      created: 1746201129631
+      modified: 1746938909242
+      sortKey: -1746201129631
+    children:
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews
+        name: get all
+        meta:
+          id: req_9020118554914e128e7431485812a6d5
+          created: 1746938863929
+          modified: 1747021602246
+          isPrivate: false
+          sortKey: -1746938863929
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews/682035a0b093c4ea2182fbe1
+        name: get by id
+        meta:
+          id: req_9c906431a8cc4409b5ffb6b8f3129840
+          created: 1746938878601
+          modified: 1747021598937
+          isPrivate: false
+          sortKey: -1746938878601
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews/create
+        name: create
+        meta:
+          id: req_c8cdc2066edf4fa49648183e272140b2
+          created: 1746938891220
+          modified: 1747366059648
+          isPrivate: false
+          sortKey: -1746938891220
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "contentType": "Wallpaper",
+              "contentId": "68269bbd2df70953b41b8d54",
+              "rating": 5,
+              "comment": "This is a great wallpaper, really like the colors!"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_01310abff38e460f94d2310d0653bd82
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_55ba3d97a8994ebc9f45e30c2aec1925
+          - id: pair_7cec249c505c4949ae74977204c2fcba
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzYxNDk0LCJleHAiOjE3NDc5NjYyOTR9.ci_pNpYpPff8Ax70_6EriOoUwG4r1TVNsKlNmweomd4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews/6826a20452cc0fe1277b4c5b/hard-delete
+        name: delete (owner/master)
+        meta:
+          id: req_b6c9ac06f7854416bbe90f25d1a4d7b9
+          created: 1746938912023
+          modified: 1747364600485
+          isPrivate: false
+          sortKey: -1746938912023
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b32a5480e54d4e7f80f2294468442c16
+          - id: pair_c0744dc639474b888a5c3328b05cc7b1
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ3MzYxNDk0LCJleHAiOjE3NDc5NjYyOTR9.ci_pNpYpPff8Ax70_6EriOoUwG4r1TVNsKlNmweomd4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews/682035a0b093c4ea2182fbe1
+        name: update (owner)
+        meta:
+          id: req_ecf8f41ab902453e856c16a2b3175a9b
+          created: 1746938928122
+          modified: 1747021610423
+          isPrivate: false
+          sortKey: -1746938901621.5
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"rating": "5"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_a6a7c2cac7244564824322ea8c01d140
+          - id: pair_65efd2870c6847979fc9ed3ee0f0fc2a
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reviews/51564
+        name: soft delete (admin/master)
+        meta:
+          id: req_46402f32b30e44c0af8824153530605e
+          created: 1746939654701
+          modified: 1747021613268
+          isPrivate: false
+          sortKey: -1746939654701
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c1552c5d52324faeaf886cc371526b2e
+          - id: pair_c9cde816b5994cc29282611f44833c38
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Icon Themes
+    meta:
+      id: fld_9caa025ccae3438795a8292e2ebf230a
+      created: 1746935398253
+      modified: 1746935419477
+      sortKey: -1746201129674.75
+    children:
+      - name: admin/master only
+        meta:
+          id: fld_0d85c45af9e644a688a514861b5ba11e
+          created: 1746935398255
+          modified: 1746935398255
+          sortKey: -1746715406333
+        children:
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/admin/unapproved
+            name: get all unapproved
+            meta:
+              id: req_abbf65452342425b9659e7425a6135e9
+              created: 1746935398256
+              modified: 1747021522729
+              isPrivate: false
+              sortKey: -1746715416104
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_4ab13b0b93a348aaa71a84526e7b18b0
+              - id: pair_c0b7dee284704fd5b444f3b24ff4b0c2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/admin/deleted
+            name: get all deleted
+            meta:
+              id: req_4c2e5504d04143048c2699271d8185e6
+              created: 1746935398257
+              modified: 1747021519271
+              isPrivate: false
+              sortKey: -1746934553129
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_faf9b91d81704905a8f32690945df870
+              - id: pair_6707edd5f27f4a2eb643adcf6d30e250
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/68202696ea043387f1a80d72
+            name: approve (set isApporved=true)
+            meta:
+              id: req_855408efa5f544c6a2ebff83da7a8c93
+              created: 1746935398257
+              modified: 1747021532375
+              isPrivate: false
+              sortKey: -1746934922236
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"isApproved":"true"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+                id: pair_08c310cc387e46c7989128ccbac529d7
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_a5d3a426e5d74bf592d5b4a7ee378246
+              - id: pair_bb5fa6360fb541c4a98c4f9114e9b50c
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/admin/deleted/681cc549b8fdbf70315d56f6
+            name: get deleted by id
+            meta:
+              id: req_33f7e850d6e7405d8e90890ac8c8c726
+              created: 1746935398258
+              modified: 1747021513097
+              isPrivate: false
+              sortKey: -1746934878339
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_640775657e414ea88db39489c0fecda6
+              - id: pair_21a6014d76244c14bb96bb9654e890ff
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/admin/restore/681cc549b8fdbf70315d56f6
+            name: restore soft deleted (master only)
+            meta:
+              id: req_5c1e582320b7489e98aff348528da9fd
+              created: 1746935398259
+              modified: 1747021526399
+              isPrivate: false
+              sortKey: -1746934915965
+            method: PUT
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_ee42fc443e2c47b09219aadb594b0ae7
+              - id: pair_89f61f1fe8674f10bd2623db2a47b7b2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/681cc549b8fdbf70315d56f6
+            name: soft delete
+            meta:
+              id: req_a806475ad8184dc8baebad38db7594dc
+              created: 1746935398259
+              modified: 1747021535653
+              isPrivate: false
+              sortKey: -1746934928507
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_54d648f89a09484aa8d70ebe89ed172d
+              - id: pair_ffe426806a1f4c8e876cf516c63639ae
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes
+        name: get all
+        meta:
+          id: req_84ef73790750403e8079744b36d81ef0
+          created: 1746935398261
+          modified: 1747021498160
+          isPrivate: false
+          sortKey: -1746710377482
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/create
+        name: create
+        meta:
+          id: req_fd2ad443a00e40558379a7833d53da2c
+          created: 1746935398261
+          modified: 1747387264573
+          isPrivate: false
+          sortKey: -1746710397516.4375
+        method: POST
+        body:
+          mimeType: application/json
+          text: >-
+            {
+              "title": "Awesome Icon Theme",
+              "description": "A collection of nature icons.",
+              "category": "nature",
+              "tags": ["brown", "nature"],
+              "icons": ["681cc246c13b501a3c0a260a", "681cc246c13b501a3c0a260a", "6820218b634b78087985bd6a"],
+            	"isPublic":"true"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_74672ace989d4d96a06533132b016f2f
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_128135f00f2344beb0fc0c1059626d2e
+          - id: pair_913f18d3bb044b3cbe0c51dca905b97f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/681cc246c13b501a3c0a260a
+        name: get by id
+        meta:
+          id: req_1f797a9c2c8449878a578cae8c9b124e
+          created: 1746935398262
+          modified: 1747021494360
+          isPrivate: false
+          sortKey: -1746710391419
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_f8f40e9075dd4c16862090ac23540b50
+          - id: pair_7ac49c2ac44a4f06b77151eefd35d51c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1MjY3LCJleHAiOjE3NDczMjAwNjd9.lpI0ND29YA3ZE5E6_lyayf8c6L4IDILtCqvECtSHfU8
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/user/pending
+        name: get all pending approval (owner only)
+        meta:
+          id: req_33e9561837f847dcb938205202e851bd
+          created: 1746935398263
+          modified: 1747021490951
+          isPrivate: false
+          sortKey: -1746710394903.25
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c9d10090cebd4bb7b4b394c1c800b456
+          - id: pair_ce82f6d0b7a042868a9878aa3c8f1885
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1NjM4LCJleHAiOjE3NDczMjA0Mzh9.WxnBXiDBIeMMk_sxJG8WxCIFTrfiqvwDT21WNF404X4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/68202696ea043387f1a80d72
+        name: update (make isPublic=true) (owner only)
+        meta:
+          id: req_a7c1bae3054b48c58d2d1dd272683e76
+          created: 1746935398263
+          modified: 1747021505288
+          isPrivate: false
+          sortKey: -1746710398387.5
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"isPublic":"true"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_be28299282994884afc432039ab8f7db
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_66a9fe93563f4c9b94ff91379afafbd5
+          - id: pair_fd1e5d8747264f6ca9584dfc6753a2a7
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/681cc1dcc13b501a3c0a2605/hard-delete
+        name: hard delete (owner/master)
+        meta:
+          id: req_8071c529ecb94eec9c47dd4e88e361a9
+          created: 1746935398264
+          modified: 1747021509188
+          isPrivate: false
+          sortKey: -1746712902360.25
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_4ffa3d208d324501bc0856c6462f2b37
+          - id: pair_450687e382ad4e968c1492b6ca02558c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/icon-themes/download/68202696ea043387f1a80d72
+        name: download (get pre-signed URL)
+        meta:
+          id: req_2341e45ee5364924ae929dc6c8a0ce41
+          created: 1746935398265
+          modified: 1747021487460
+          isPrivate: false
+          sortKey: -1746710396645.375
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b2bea00048a840b7a9e4a10fd5812558
+          - id: pair_a99191b4f3f9406ba83106c23b01c47d
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Desktop Themes
+    meta:
+      id: fld_cd1a859fa44a4e90823181508c9fc215
+      created: 1746937832901
+      modified: 1746937832901
+      sortKey: -1746201129652.875
+    children:
+      - name: admin/master only
+        meta:
+          id: fld_cf452440b8644bf0ae1eb306c3bc5f16
+          created: 1746937832902
+          modified: 1746937832902
+          sortKey: -1746715406333
+        children:
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/admin/unapproved
+            name: get all unapproved
+            meta:
+              id: req_40371eb657a2423a8ad1476052462d1f
+              created: 1746937832903
+              modified: 1747021580101
+              isPrivate: false
+              sortKey: -1746715416104
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_4ab13b0b93a348aaa71a84526e7b18b0
+              - id: pair_c0b7dee284704fd5b444f3b24ff4b0c2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/admin/deleted
+            name: get all deleted
+            meta:
+              id: req_f37defc186104fb0882786d589ffdd7b
+              created: 1746937832905
+              modified: 1747021576789
+              isPrivate: false
+              sortKey: -1746934553129
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_faf9b91d81704905a8f32690945df870
+              - id: pair_6707edd5f27f4a2eb643adcf6d30e250
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/68202b25ea043387f1a80da9
+            name: approve (set isApporved=true)
+            meta:
+              id: req_46ca407003924b77a3243494a6cc0da0
+              created: 1746937832906
+              modified: 1747021591971
+              isPrivate: false
+              sortKey: -1746934922236
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"isApproved":"true"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+                id: pair_08c310cc387e46c7989128ccbac529d7
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_a5d3a426e5d74bf592d5b4a7ee378246
+              - id: pair_bb5fa6360fb541c4a98c4f9114e9b50c
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/admin/deleted/681cc549b8fdbf70315d56f6
+            name: get deleted by id
+            meta:
+              id: req_e82e375e5b4849ccb7e44046b8f14f2d
+              created: 1746937832908
+              modified: 1747021573858
+              isPrivate: false
+              sortKey: -1746934878339
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_640775657e414ea88db39489c0fecda6
+              - id: pair_21a6014d76244c14bb96bb9654e890ff
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/admin/restore/681cc549b8fdbf70315d56f6
+            name: restore soft deleted (master only)
+            meta:
+              id: req_12f4cb57fc184597b2b24d7381544e88
+              created: 1746937832909
+              modified: 1747021586279
+              isPrivate: false
+              sortKey: -1746934915965
+            method: PUT
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_ee42fc443e2c47b09219aadb594b0ae7
+              - id: pair_89f61f1fe8674f10bd2623db2a47b7b2
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/681cc549b8fdbf70315d56f6
+            name: soft delete
+            meta:
+              id: req_933c748f934e4db8a1c3b8738328125c
+              created: 1746937832910
+              modified: 1747021595468
+              isPrivate: false
+              sortKey: -1746934928507
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.2
+                id: pair_54d648f89a09484aa8d70ebe89ed172d
+              - id: pair_ffe426806a1f4c8e876cf516c63639ae
+                name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes
+        name: get all
+        meta:
+          id: req_b12af55f2f48451cb9b3aa954446729f
+          created: 1746937832911
+          modified: 1747021552431
+          isPrivate: false
+          sortKey: -1746710377482
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/create
+        name: create with individual icons
+        meta:
+          id: req_a869aac0741b458c9f153f68e4db51ce
+          created: 1746937832912
+          modified: 1747387510797
+          isPrivate: false
+          sortKey: -1746710397516.4375
+        method: POST
+        body:
+          mimeType: application/json
+          text: >-
+            {
+              "title": "Awesome Desktop Theme",
+              "description": "A collection of nature.",
+              "category": "nature",
+              "tags": ["brown", "nature", "apps", "bear"],
+            	"wallpaper": "68269bbd2df70953b41b8d54",
+              "icons": ["681cc246c13b501a3c0a260a", "68202140634b78087985bd65", "6820218b634b78087985bd6a"],
+            	"isPublic": "true"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_74672ace989d4d96a06533132b016f2f
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_128135f00f2344beb0fc0c1059626d2e
+          - id: pair_913f18d3bb044b3cbe0c51dca905b97f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/681cc246c13b501a3c0a260a
+        name: get by id
+        meta:
+          id: req_6c1ab43d82d748239375dba0cb26f731
+          created: 1746937832913
+          modified: 1747021548464
+          isPrivate: false
+          sortKey: -1746710391419
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_f8f40e9075dd4c16862090ac23540b50
+          - id: pair_7ac49c2ac44a4f06b77151eefd35d51c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1MjY3LCJleHAiOjE3NDczMjAwNjd9.lpI0ND29YA3ZE5E6_lyayf8c6L4IDILtCqvECtSHfU8
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/user/pending
+        name: get all pending approval (owner only)
+        meta:
+          id: req_cb94cf63d8024005af078a63b87bc552
+          created: 1746937832913
+          modified: 1747021543660
+          isPrivate: false
+          sortKey: -1746710394903.25
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c9d10090cebd4bb7b4b394c1c800b456
+          - id: pair_ce82f6d0b7a042868a9878aa3c8f1885
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIzQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFyIHVzZXIgMiIsIl9pZCI6IjY4MWJlNDMwM2RiZGU3NDAzZmM0MGIyNyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2NzE1NjM4LCJleHAiOjE3NDczMjA0Mzh9.WxnBXiDBIeMMk_sxJG8WxCIFTrfiqvwDT21WNF404X4
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/68202b25ea043387f1a80da9
+        name: update (make isPublic=true) (owner only)
+        meta:
+          id: req_e346fb298ff9482b888456276a7e354f
+          created: 1746937832914
+          modified: 1747021563714
+          isPrivate: false
+          sortKey: -1746710398387.5
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"isPublic":"true"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_be28299282994884afc432039ab8f7db
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_66a9fe93563f4c9b94ff91379afafbd5
+          - id: pair_fd1e5d8747264f6ca9584dfc6753a2a7
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/681cc1dcc13b501a3c0a2605/hard-delete
+        name: hard delete (owner/master)
+        meta:
+          id: req_052b19d40d844e1fa16714d87821a917
+          created: 1746937832915
+          modified: 1747021567383
+          isPrivate: false
+          sortKey: -1746712902360.25
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_4ffa3d208d324501bc0856c6462f2b37
+          - id: pair_450687e382ad4e968c1492b6ca02558c
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/download/68202b25ea043387f1a80da9
+        name: download (get pre-signed URL)
+        meta:
+          id: req_1cb6d1f1fc51442b8a38622cfd0e924e
+          created: 1746937832916
+          modified: 1747021539591
+          isPrivate: false
+          sortKey: -1746710396645.375
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b2bea00048a840b7a9e4a10fd5812558
+          - id: pair_a99191b4f3f9406ba83106c23b01c47d
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/desktop-themes/create
+        name: create with icon theme
+        meta:
+          id: req_0438f9169d0048e987683dcfd7144202
+          created: 1746938000695
+          modified: 1747021560014
+          isPrivate: false
+          sortKey: -1746710397080.9062
+        method: POST
+        body:
+          mimeType: application/json
+          text: >-
+            {
+              "title": "Awesome Desktop Theme",
+              "description": "A collection of batman w3allpaper and nature icon theme.",
+              "category": "nature",
+              "tags": ["brown", "nature", "apps", "bear"],
+            		"wallpaper": "681c0b3d3822182d2b595f97",
+              "iconTheme": "68202696ea043387f1a80d72"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_74672ace989d4d96a06533132b016f2f
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_128135f00f2344beb0fc0c1059626d2e
+          - id: pair_913f18d3bb044b3cbe0c51dca905b97f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Reports
+    meta:
+      id: fld_55c219ef67a8480f96d74d8c5abf9ac7
+      created: 1746941627086
+      modified: 1746980212234
+      sortKey: -1739032596247
+    children:
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports
+        name: get all (admins/master)
+        meta:
+          id: req_69b22526eed94fba90a01a8257c13ea8
+          created: 1746941627087
+          modified: 1747021655599
+          isPrivate: false
+          sortKey: -1746938863929
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_3125a22e276146c9be876d6395648e24
+          - id: pair_e6afec41e1a14d68a9fa77367d2b1e03
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports/6820c539effe8f16d01e8891
+        name: "get by id "
+        meta:
+          id: req_8f96a922e0044c6c8b32060c9348702f
+          created: 1746941627088
+          modified: 1747021652150
+          isPrivate: false
+          sortKey: -1746938878601
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_77b853416a0b4d93add2464e55d17039
+          - id: pair_676810a9fd484dcb9deb4ce108aa90a1
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjkzNDc1NiwiZXhwIjoxNzQ3NTM5NTU2fQ.pEF10lIag_jics6VrVM_7cG6r3qwCwhxPXCYCbjvYyk
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports/create
+        name: create
+        meta:
+          id: req_f4ad0c33b2974be6af86863c873d1263
+          created: 1746941627090
+          modified: 1747021663722
+          isPrivate: false
+          sortKey: -1746938891220
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "targetType": "Wallpaper",
+              "targetId": "681fffc9375e03085708e52a",
+              "reason": "inappropriate or offensive content",
+              "text": "Batmans head is too big"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_01310abff38e460f94d2310d0653bd82
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_55ba3d97a8994ebc9f45e30c2aec1925
+          - id: pair_7cec249c505c4949ae74977204c2fcba
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIxMUBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoicmVndWxhcnVzZXIxMSIsIl9pZCI6IjY4MjBjNzUxZWZmZThmMTZkMDFlODhkNSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTc4NjU2LCJleHAiOjE3NDc1ODM0NTZ9.qDjzzcezarHGtOuzn0bEu4dGN6-S_9cQjzF_bmROV8U
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reporst/51564
+        name: soft delete (admin/master)
+        meta:
+          id: req_bf7ab56ac32b46659131f6918d410306
+          created: 1746941627094
+          modified: 1747021667551
+          isPrivate: false
+          sortKey: -1746939654701
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c1552c5d52324faeaf886cc371526b2e
+          - id: pair_c9cde816b5994cc29282611f44833c38
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports/admin/flagged?targetType=Wallpaper
+        name: "get all flagged content (isFlagged: true)(admin/master)"
+        meta:
+          id: req_57241f4f4a9247b9bd288de223c26f57
+          created: 1746979546885
+          modified: 1747021648063
+          isPrivate: false
+          sortKey: -1746938884910.5
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_1577848801024507b85a10cf38c21e2a
+          - id: pair_d69f336edde84dfb9ee0b17f5c021130
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports/admin/unflag
+        name: unflag (content update isFlagged=false and soft delete
+          reports)(admin/master)
+        meta:
+          id: req_d6071161f9e04813a58adf17d1c84279
+          created: 1746980214429
+          modified: 1747021659332
+          isPrivate: false
+          sortKey: -1746980214429
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "targetType": "Wallpaper",
+              "targetId": "681fffc9375e03085708e52a"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_d859149772524f1c89cf91a9269b62e8
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_cc3eea3dac48405792998224752e708f
+          - id: pair_606b35239ed046ab81087d1bfce8a5fc
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/reports/admin/deleted
+        name: get deleted (admin/master)
+        meta:
+          id: req_12b2f12678be4cb692563231d1e7b715
+          created: 1746981778266
+          modified: 1747021643960
+          isPrivate: false
+          sortKey: -1746938888065.25
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_5a69b348fbab410e9f9d53b7461fdbd5
+          - id: pair_af30d587c1734ba99fb1f3d3c075ae8e
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc3RlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoibWFzdGVyX3VzZXIiLCJfaWQiOiI2ODE1MDM1NjA2NzcwZTgwNjlhZjdkOGIiLCJyb2xlIjoibWFzdGVyIiwiaWF0IjoxNzQ2OTM1MjYwLCJleHAiOjE3NDc1NDAwNjB9.qYRbBS_gP3tnSiwmOu8SluUuDqJ7J8xhFISaRcaUG6Q
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Requests
+    meta:
+      id: fld_5a6371b2807648579a1bde27c37fff5e
+      created: 1746983632355
+      modified: 1746983632355
+      sortKey: -1742616862939
+    children:
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests
+        name: get all
+        meta:
+          id: req_86041188ff8b4090934ab92642b10d6b
+          created: 1746983632357
+          modified: 1747019791884
+          isPrivate: false
+          sortKey: -1746938863929
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/create
+        name: create
+        meta:
+          id: req_daa371a92745413f85858e74ded27242
+          created: 1746983632358
+          modified: 1747021630340
+          isPrivate: false
+          sortKey: -1746938891220
+        method: POST
+        body:
+          mimeType: application/json
+          text: >-
+            {
+              "category": "desktop theme",
+              "text": "A cat desktop theme. Thinking the wallpaper could be an image of a cat and the icons could be cat toys, and maybe the apps could be cat-ified"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_01310abff38e460f94d2310d0653bd82
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_55ba3d97a8994ebc9f45e30c2aec1925
+          - id: pair_7cec249c505c4949ae74977204c2fcba
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/682035a0b093c4ea2182fbe1
+        name: get by id
+        meta:
+          id: req_e25e4b8571e24966bdf67e08b48e4169
+          created: 1746983632358
+          modified: 1747021620947
+          isPrivate: false
+          sortKey: -1746938878601
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/5/hard-delete
+        name: delete (owner/master)
+        meta:
+          id: req_a8497956aabc443e9c1f24b838554cad
+          created: 1746983632359
+          modified: 1747021638239
+          isPrivate: false
+          sortKey: -1746938912023
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_b32a5480e54d4e7f80f2294468442c16
+          - id: pair_c0744dc639474b888a5c3328b05cc7b1
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/6820e98cb70b785a3baf02e9
+        name: update (owner)
+        meta:
+          id: req_4d6d6e00f9b54cfb83a64c09eb9ac532
+          created: 1746983632360
+          modified: 1747021626872
+          isPrivate: false
+          sortKey: -1746938901621.5
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"category": "any"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+            id: pair_dd0b1c490fda4043924d678e344b45c4
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_a6a7c2cac7244564824322ea8c01d140
+          - id: pair_65efd2870c6847979fc9ed3ee0f0fc2a
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/51564
+        name: soft delete (admin/master)
+        meta:
+          id: req_0e477f28a85a4539bb7a79e29e040430
+          created: 1746983632361
+          modified: 1747021633404
+          isPrivate: false
+          sortKey: -1746939654701
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_c1552c5d52324faeaf886cc371526b2e
+          - id: pair_c9cde816b5994cc29282611f44833c38
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6InJlZ3VsYXJfdXNlciIsIl9pZCI6IjY4MTUwMzU2MDY3NzBlODA2OWFmN2Q4YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0NjY1ODI1OSwiZXhwIjoxNzQ3MjYzMDU5fQ.p4uZouZHL7fMatEKbyzoHyfKNJQFOQZD6LaHj0JfCW0
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/6820e98cb70b785a3baf02e9/review
+        name: review a request
+        meta:
+          id: req_818acd56d8a4436aa1a53f31978753f7
+          created: 1746987749771
+          modified: 1747021623487
+          isPrivate: false
+          sortKey: -1746987749771
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"text": "Great idea. I'll get on it!"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.0.2
+            id: pair_f88683bf0c5543269e298cf8b0a4f78f
+          - id: pair_e3b545b4d19f43aa90cc41146302084f
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJuZXcgdXNlciIsIl9pZCI6IjY4MTUyMDQ0NDM1ODcxNTQ2NjlhMTkxZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTM0MzU1LCJleHAiOjE3NDc1MzkxNTV9.kdXQZYvZCF_mfoEzlJfJuJnP1QpHZTl7Yb5A-_AKl88
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api/requests/6820e98cb70b785a3baf02e9/like
+        name: like request
+        meta:
+          id: req_a130c6279a2945f9ba81bce392b8e8bd
+          created: 1747020157032
+          modified: 1747020234343
+          isPrivate: false
+          sortKey: -1747020157032
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.1.0
+            id: pair_e3337e5f94af44cda7bd04dfafcefe22
+          - id: pair_a425a3de4cc241bc81d5935fde00f760
+            name: Authorization
+            value: Bearer
+              eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXI0QGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJyZWd1bGFydXNlcjQiLCJfaWQiOiI2ODFjYzc5OGY2OWU3ZmViMThhMmYyMDciLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjcxNjYwNywiZXhwIjoxNzQ3MzIxNDA3fQ.T6w4TBodxV_aFQOA7xTnjCPEKU7LEPIWE8ak9pA7XQY
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - url: https://desktopstudio-api-65f8fc82a45a.herokuapp.com/api-docs
+    name: API Docs
+    meta:
+      id: req_d2380da7b4634973b640f6db3afa54a7
+      created: 1747013271454
+      modified: 1747021687332
+      isPrivate: false
+      sortKey: -1747013271454
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_0155a3f8dd653463b4deeac442df7253cc29f989
+    created: 1746201001318
+    modified: 1746201001318
+environments:
+  name: Base Environment
+  meta:
+    id: env_0155a3f8dd653463b4deeac442df7253cc29f989
+    created: 1746201001309
+    modified: 1746201001309
+    isPrivate: false
